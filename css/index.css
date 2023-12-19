@@ -1,0 +1,44 @@
+audio {
+    width: 35em;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.428);
+    color: red;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    box-shadow: white 2px 1px 1px 0px;
+}
+
+audio:active {
+    transition-duration: 400ms;
+}
+
+.img {
+    position: absolute;
+    left: 45%;
+    transform: translate(-50%, 0%);
+}
+
+img {
+    width: 40em;
+}
+
+.cartoons {
+    width: 10em;
+    margin-top: 47.4%;
+    margin-left: 55%;
+}
+
+
+
+body {
+    background-image: url(/Images/Paper2.jpg);
+    background-size: cover;
+    width: 100vw;
+}
+
+.control {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
